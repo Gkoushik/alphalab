@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m jupyter --version)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(python -m notebook --version)",
+      "Bash(python -m jupyter notebook --version)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\); print\\(sys.version\\)\")",
+      "Bash(python -m notebook)",
+      "Bash(python -m venv venv)",
+      "Bash(d:/Workplace/alphalab/venv/Scripts/pip install:*)"
     ]
   }
 }
